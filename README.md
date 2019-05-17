@@ -25,3 +25,22 @@ L'application répond en donnant 3 informations :
 
 Module secondaire : PARTICIPE PASSE
 Même chose avec le participe passé.
+
+
+Alt-## Base de données ou array
+####Array
+*Pro*
+- Javascript
+- simple à utiliser
+- uniquement en front
+
+*Con*
+- pas de données extensive
+
+####Base de données (MongoDB ou SQL)
+*Pro*
+- quantité de données importante
+- données croisée faciles à retrouver grâce aux tables (ou équivalent)
+
+*Con*
+- connaître le back-end et les appels à la bdd
