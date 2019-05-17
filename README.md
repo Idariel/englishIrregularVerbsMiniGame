@@ -27,8 +27,8 @@ Module secondaire : PARTICIPE PASSE
 Même chose avec le participe passé.
 
 
-Alt-## Base de données ou array
-####Array
+## Base de données ou array
+###Array
 *Pro*
 - Javascript
 - simple à utiliser
