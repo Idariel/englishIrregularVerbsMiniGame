@@ -35,9 +35,9 @@ Même chose avec le participe passé.
 - uniquement en front
 
 *Con*
-- pas de données extensive
+- pas de données extensives
 
-####Base de données (MongoDB ou SQL)
+### Base de données (MongoDB ou SQL)
 *Pro*
 - quantité de données importante
 - données croisée faciles à retrouver grâce aux tables (ou équivalent)
