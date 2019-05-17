@@ -44,3 +44,21 @@ Même chose avec le participe passé.
 
 *Con*
 - connaître le back-end et les appels à la bdd
+
+### Début de codage de la BDD avec MongoDB
+Dans le Terminal
+Start the database
+*sudo service mongod start*
+
+Access MongoDB en utilisant le shell
+*mongo --host localhost:27017*
+
+Créer la base de données
+*use IrregularVerbEnglish*
+
+Ajouter une collection (équivalent des tables en SQL)
+*db.createCollection("user")*
+*db.createCollection("declinaisons")*
+
+Ajouter des données
+*db.user.insert({"firstName":"Isabelle", "familyName":"LECHAT"}*
