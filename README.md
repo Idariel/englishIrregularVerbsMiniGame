@@ -48,18 +48,18 @@ Même chose avec le participe passé.
 ### Début de codage de la BDD avec MongoDB
 Dans le Terminal
 Start the database
-  *sudo service mongod start*
+ - *sudo service mongod start*
 
 Access MongoDB en utilisant le shell
-  *mongo --host localhost:27017*
+ - *mongo --host localhost:27017*
 
 Créer la base de données
-  *use IrregularVerbEnglish*
+ - *use IrregularVerbEnglish*
 
 Ajouter une collection (équivalent des tables en SQL)
-  *db.createCollection("user")*
-  *db.createCollection("declinaisons")*
+ - *db.createCollection("user")*
+ - *db.createCollection("declinaisons")*
 
 Ajouter des données
-  *db.user.insert({"firstName":"Isabelle", "familyName":"LECHAT"})*
-  *db.declinaison({"verbFR":"commencer","infinitifEng":"begin","preteritEng":"began","pluperfectEng":"begun"})
+ - *db.user.insert({"firstName":"Isabelle", "familyName":"LECHAT"})*
+ - *db.declinaison({"verbFR":"commencer","infinitifEng":"begin","preteritEng":"began","pluperfectEng":"begun"})
